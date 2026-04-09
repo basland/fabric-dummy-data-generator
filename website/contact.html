@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Rockline Supplies</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <div class="container">
+        <a href="index.html" class="nav-logo">Rock<span>line</span> Supplies</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Page Hero -->
+<div class="page-hero">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>Get in touch with the Rockline team — trade enquiries, account applications, and general questions.</p>
+    </div>
+</div>
+
+<!-- Contact section -->
+<section>
+    <div class="container">
+        <div class="contact-grid">
+
+            <!-- Contact info -->
+            <div class="contact-info">
+                <h3>Get in touch</h3>
+
+                <div class="contact-detail">
+                    <div class="detail-icon">📞</div>
+                    <div class="contact-detail-text">
+                        <strong>Main Switchboard</strong>
+                        <span>+44 1200 000 000<br>Mon–Fri 08:00–17:00</span>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <div class="detail-icon">✉️</div>
+                    <div class="contact-detail-text">
+                        <strong>General Enquiries</strong>
+                        <span>info@rocklinesupplies.co.uk</span>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <div class="detail-icon">🛒</div>
+                    <div class="contact-detail-text">
+                        <strong>Trade Account Applications</strong>
+                        <span>accounts@rocklinesupplies.co.uk</span>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <div class="detail-icon">📍</div>
+                    <div class="contact-detail-text">
+                        <strong>Head Office</strong>
+                        <span>12 Industrial Way<br>Hartfield Industrial Estate<br>Hartfield, HF1 4RX</span>
+                    </div>
+                </div>
+
+                <div style="margin-top: 32px; padding: 20px; background: var(--color-light-bg); border-radius: 6px; border-left: 4px solid var(--color-accent);">
+                    <p style="font-size: 0.92rem; color: var(--color-text-muted); line-height: 1.6;">
+                        <strong style="color: var(--color-primary);">For urgent branch queries</strong><br>
+                        Contact your nearest branch directly using the numbers on our <a href="locations.html">Locations page</a>.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Contact form -->
+            <div>
+                <h3 style="font-size: 1.2rem; font-weight: 600; color: var(--color-primary); margin-bottom: 24px;">Send us a message</h3>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first_name" placeholder="e.g. John">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last_name" placeholder="e.g. Smith">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company Name</label>
+                        <input type="text" id="company" name="company" placeholder="Your company name (if applicable)">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+44 ...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="enquiry-type">Enquiry Type</label>
+                        <select id="enquiry-type" name="enquiry_type">
+                            <option value="">— Please select —</option>
+                            <option value="trade_account">Open a Trade Account</option>
+                            <option value="product">Product / Stock Query</option>
+                            <option value="quote">Request a Quote</option>
+                            <option value="delivery">Delivery Enquiry</option>
+                            <option value="invoice">Invoice / Billing</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="branch">Nearest Branch (optional)</label>
+                        <select id="branch" name="branch">
+                            <option value="">— Select branch —</option>
+                            <option value="hartfield">Hartfield (HQ)</option>
+                            <option value="draystone">Draystone</option>
+                            <option value="crestwick">Crestwick</option>
+                            <option value="norbeck">Norbeck</option>
+                            <option value="lyndhurst">Lyndhurst</option>
+                            <option value="pembridge">Pembridge</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your enquiry..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1rem; padding: 14px;">Send Message</button>
+                    <p style="font-size: 0.82rem; color: var(--color-text-muted); margin-top: 12px; text-align: center;">We aim to respond within one working day.</p>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Trade account CTA -->
+<section class="alt-bg">
+    <div class="container">
+        <div class="section-header">
+            <h2>Open a Trade Account</h2>
+            <p>Access wholesale pricing, 30-day payment terms, and a dedicated account manager.</p>
+            <div class="underline"></div>
+        </div>
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-body" style="padding: 28px;">
+                    <h3 style="margin-bottom: 10px;">💷 Wholesale Pricing</h3>
+                    <p>Trade account customers receive volume-tiered pricing on all products, with further discounts available for project commitments.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body" style="padding: 28px;">
+                    <h3 style="margin-bottom: 10px;">📋 30-Day Terms</h3>
+                    <p>Qualified businesses can apply for 30-day credit terms, helping you manage project cash flow without upfront payment on every order.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body" style="padding: 28px;">
+                    <h3 style="margin-bottom: 10px;">👤 Account Manager</h3>
+                    <p>Every trade account gets a named account manager at your nearest branch who can help with product queries, quotes, and scheduling.</p>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 36px;">
+            <p style="color: var(--color-text-muted); margin-bottom: 16px;">To apply, send your company details to <a href="mailto:accounts@rocklinesupplies.co.uk">accounts@rocklinesupplies.co.uk</a> or use the contact form above.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="nav-logo">Rock<span>line</span> Supplies</a>
+                <p>Construction materials wholesaler serving trade professionals since 1987. Six branches, 12,000+ products, one reliable partner.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Products</h4>
+                <ul>
+                    <li><a href="products.html">Concrete &amp; Cement</a></li>
+                    <li><a href="products.html">Structural Steel</a></li>
+                    <li><a href="products.html">Timber</a></li>
+                    <li><a href="products.html">Roofing</a></li>
+                    <li><a href="products.html">Masonry</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="about.html#team">Our Team</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="tel:+441200000000">+44 1200 000 000</a></li>
+                    <li><a href="mailto:info@rocklinesupplies.co.uk">info@rocklinesupplies.co.uk</a></li>
+                    <li><a href="locations.html">Find a branch</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Rockline Supplies Ltd. All rights reserved.</p>
+            <p>Registered in England &amp; Wales · Company No. 02184765</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
